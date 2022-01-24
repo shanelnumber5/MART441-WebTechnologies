@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'PressStart2P-Regular';
+  src: url("../fonts/PressStart2P-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'PressStart2P-Regular';
+  color: #090909;
+  font-size: 14px;
+}

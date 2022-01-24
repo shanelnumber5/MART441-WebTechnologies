@@ -1,0 +1,98 @@
+.ulnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  background-color: #EDC7A4;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 35px;
+}
+
+.linav {
+  float: left;
+}
+
+.linav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.linav a:hover:not(.active) {
+  background-color: #5DD904;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/trail.jpeg");
+  /* Full height */
+  height: 35%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1200px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+body {
+  width: 100%;
+  background-color: black;
+  margin: 2em;
+  margin-top: 1em;
+  padding: 2em;
+  display: flex;
+}
+
+.container {
+  line-height: 1em;
+  border-style: solid;
+  border-width: 40px;
+  border-color: black;
+  background-color: #DAD9D0;
+}
+
+img {
+  margin-left: 35%;
+  margin-right: 55%;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 40%;
+  padding: 2em;
+}
+
+.column2 {
+  flex: 60%;
+  padding: 2em;
+}
+
+* {
+  box-sizing: border-box
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* Use a media query to add a break point at 1200px: */
+@media screen and (max-width: 1200px) {
+  .body {
+    width: 100%;
+  }
+}
